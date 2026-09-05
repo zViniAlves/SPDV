@@ -1,0 +1,3 @@
+# Todo arquivo de texto é gravado com LF, no repositório e no working tree.
+# `eol=lf` tem precedência sobre o core.autocrlf local, então vale para todos.
+* text=auto eol=lf

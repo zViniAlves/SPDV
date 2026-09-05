@@ -1,0 +1,12 @@
+pyproject.toml
+src/SPDV/config.py
+src/SPDV.egg-info/PKG-INFO
+src/SPDV.egg-info/SOURCES.txt
+src/SPDV.egg-info/dependency_links.txt
+src/SPDV.egg-info/requires.txt
+src/SPDV.egg-info/top_level.txt
+src/SPDV/api/autorization_callback.py
+src/SPDV/clients/auth.py
+src/SPDV/clients/products.py
+src/SPDV/clients/token_store.py
+src/tests/tmp.py

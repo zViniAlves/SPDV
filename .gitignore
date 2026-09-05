@@ -1,2 +1,15 @@
+# Environment
 .env
 .venv
+dist/*
+
+# Temp
+tmp*
+
+# Token da Shopee (caminho default de TOKEN_FILE)
+tmp_shopee_token.json
+tmp_shopee_token.json.part
+
+# Shell scripts
+*.sh
+*.cmd

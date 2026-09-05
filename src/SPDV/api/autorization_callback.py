@@ -15,19 +15,10 @@ async def shopee_callback(request: Request):
 
     code = params.get("code")
     shop_id = params.get("shop_id")
-    main_account_id = params.get("main_account_id")
-
-    print("=== Shopee callback recebido ===")
-    print(f"code: {code}")
-    print(f"shop_id: {shop_id}")
-    print(f"main_account_id: {main_account_id}")
-    print(f"todos os params: {params}")
 
     return {
-        "message": "Autorização recebida com sucesso",
         "code": code,
         "shop_id": shop_id,
-        "main_account_id": main_account_id,
     }
 
 
